@@ -10,10 +10,11 @@ android {
     def version_code = df.format(new Date())
 
     defaultConfig {
-        minSdkVersion 19
+        minSdkVersion 7
         targetSdkVersion 19
         versionCode version_code.toInteger()
         versionName "1.0." + version_code
+        applicationId "net.tatans.weixin.red.packet"
     }
 
     signingConfigs {
@@ -33,6 +34,7 @@ android {
     buildTypes {
         release {
             manifestPlaceholders = [app_label: AppName]
+            signingConfig signingConfigs.hyperion
             minifyEnabled true
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
             applicationVariants.all { variant ->
@@ -57,9 +59,20 @@ android {
         }
     }
     productFlavors {
-        allPhone {
-            signingConfig signingConfigs.hyperion
-            applicationId "net.tatans.weixin.red.packet"
+        yingyonbao {
+
+        }
+        wangdoujia {
+
+        }
+        baidu {
+
+        }
+        app360 {
+
+        }
+        productFlavors.all { flavor ->
+            flavor.manifestPlaceholders = [UMENG_CHANNEL_VALUE: name]
         }
     }
 }
