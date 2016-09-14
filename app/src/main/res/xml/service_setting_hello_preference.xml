@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/app_name" >
+        <Preference  android:title="@string/title_tatans" android:summary="@string/title_tatans_clean_data" />
+    </PreferenceCategory>
+</PreferenceScreen>

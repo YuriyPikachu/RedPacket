@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">微信抢红包插件</string>
+
+    <string name="description">微信抢红包插件，打开之后会自动进行抢红包，作者Yuriy 邮箱:yuliang9979@hotmail.com </string>
+    <string name="title_tatans">作者:Yuriy</string>
+    <string name="title_tatans_clean_data">Bug反馈:yuliang9979@hotmail.com</string>
+</resources>

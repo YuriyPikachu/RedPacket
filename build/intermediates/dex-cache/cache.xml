@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="D:\TBISAndroidEnvironment\gradle-2.8\caches\modules-2\files-2.1\com.umeng.analytics\analytics\6.0.1\aab9085bca0c26dcb9cb11837a5f5e22cc102a5e\analytics-6.0.1.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="aab9085bca0c26dcb9cb11837a5f5e22cc102a5e">
+        <dex dex="D:\ADTworkspace\coeus-androidstudiodemo\app\build\intermediates\pre-dexed\allPhone\debug\analytics-6.0.1-a44a0ec2338992b6215f7dc9e9ae143bd9c11d18.jar" />
+    </item>
+
+</items>
